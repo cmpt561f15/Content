@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "system",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false
+  },
+  "files": [
+    "app/boot.ts",
+    "app/components/cms-app.ts",
+    "app/components/contacts.ts",
+    "app/components/contact-editor.ts",
+    "app/services/cms-service.ts",
+    "app/models/contact.ts",
+    "app/models/country.ts",
+    "app/models/contactCategory.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

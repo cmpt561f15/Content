@@ -1,0 +1,154 @@
+[
+  {
+    "country": "Qatar",
+    "cities": [
+      "Doha",
+      "Al Khor",
+      "Al Wakrah"
+    ]
+  },
+  {
+    "country": "Palestine",
+    "cities": [
+      "Quds",
+      "Gaza",
+      "Khan Yunis"
+    ]
+  },
+  {
+    "country": "Algeria",
+    "cities": [
+      "Algiers",
+      "Oran",
+      "Constantine"
+    ]
+  },
+  {
+    "country": "Egypt",
+    "cities": [
+      "Cairo",
+      "Alexandria",
+      "Damanhur"
+    ]
+  },
+  {
+    "country": "Sudan",
+    "cities": [
+      "Khartoum",
+      "Wadi Halfa",
+      "Taiyara"
+    ]
+  },
+  {
+    "country": "Iraq",
+    "cities": [
+      "Baghdad",
+      "Basra",
+      "Faluja"
+    ]
+  },
+  {
+    "country": "Morocco",
+    "cities": [
+      "Fes",
+      "Casabalanca",
+      "Rabat"
+    ]
+  },
+  {
+    "country": "Saudi Arabia",
+    "cities": [
+      "Mecca",
+      "Madina",
+      "Jeddah"
+    ]
+  },
+  {
+    "country": "Yemen",
+    "cities": [
+      "Sana'a",
+      "Aden",
+      "Taizz"
+    ]
+  },
+  {
+    "country": "Syria",
+    "cities": [
+      "Damascus",
+      "Aleppo",
+      "Daraa"
+    ]
+  },
+  {
+    "country": "Tunisia",
+    "cities": [
+      "Tunis",
+      "Sfax",
+      "Soussa"
+    ]
+  },
+  {
+    "country": "Somalia",
+    "cities": [
+      "Mogadishu",
+      "Merca",
+      "Qandala"
+    ]
+  },
+  {
+    "country": "United Arab Emirates",
+    "cities": [
+      "Dubai",
+      "Abu Dhabi",
+      "Sharjha"
+    ]
+  },
+  {
+    "country": "Libya",
+    "cities": [
+      "Tripoli",
+      "Benghazi",
+      "Misrata"
+    ]
+  },
+  {
+    "country": "Jordan",
+    "cities": [
+      "Amman",
+      "Irbid",
+      "Al-Aqaba"
+    ]
+  },
+  {
+    "country": "Mauritania",
+    "cities": [
+      "Nouakchott",
+      "Nouadhibou",
+      "Rosso"
+    ]
+  },
+  {
+    "country": "Oman",
+    "cities": [
+      "Muscat",
+      "Nizwa",
+      "Sohar"
+    ]
+  },
+  {
+    "country": "Kuwait",
+    "cities": [
+      "Kuwait city",
+      "Ahmed Al Jaber",
+      "Al Abdaliyah"
+    ]
+  },
+  {
+    "country": "Bahrain",
+    "cities": [
+      "Manama",
+      "Riffa",
+      "Muharraq"
+    ]
+  }
+]

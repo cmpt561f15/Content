@@ -1,0 +1,26 @@
+[
+  {
+    "firstname": "Abbas",
+    "lastname": "Ibn Firnas",
+    "category": "Family",
+    "phone": "55667788",
+    "city": "Doha",
+    "country": "Qatar"
+  },
+  {
+    "firstname": "Juha",
+    "lastname": "Nasreddin",
+    "category": "Family",
+    "phone": "11223344",
+    "city": "Jeddah",
+    "country": "Saudi Arabia"
+  },
+  {
+    "firstname": "Juha",
+    "lastname": "Nasreddin",
+    "category": "Colleague",
+    "phone": "44556677",
+    "city": "Dubai",
+    "country": "United Arab Emirates"
+  }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://C:/CMPT561-Submissions/final-exam/saad749-hmk/cms" libraries="{finalproject node_modules}" />
+    <file url="file://C:/CMPT561-Submissions/final-exam/saad749-hmk/cms/server/controllers/contactController.js" libraries="{ECMAScript 6}" />
+    <includedPredefinedLibrary name="ECMAScript 6" />
+  </component>
+</project>

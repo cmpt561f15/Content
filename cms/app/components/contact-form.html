@@ -1,0 +1,71 @@
+<div class="container">
+    <h1 *ngIf="contact.id > 0">Edit Contact details - {{contact.firstname}}</h1>
+    <h1 *ngIf="contact.id === 0">Add Contact - {{contact.firstname}}</h1>
+    <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+        <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input type="text" class="form-control" id="firstname"
+                   #firstname="ngForm"
+                   [(ngModel)]="contact.firstname"
+                   ngControl="firstname"
+                   required>
+            <div class="alert alert-danger" [hidden]="firstname.valid">
+                Name is required
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="text" class="form-control" id="lastname"
+                   #lastname="ngForm"
+                   [(ngModel)]="contact.lastname"
+                   ngControl="lastname"
+                   required>
+        </div>
+
+        <div class="form-group">
+            <label for="category">Category</label>
+            <select id="category"
+                    #contactCategory="ngForm"
+                    [(ngModel)]="contact.category"
+                    ngControl="category"
+                    required>
+                <option *ngFor="#ct of cmsService.contactCategories[0].contactCategory" [value]="ct">{{ct}}</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" class="form-control" id="phone"
+                   #phone="ngForm"
+                   [(ngModel)]="contact.phone"
+                   ngControl="phone"
+                   required>
+        </div>
+
+        <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country"
+                    #country="ngForm"
+                    [(ngModel)]="contact.country"
+                    ngControl="country"
+                    (change)="onCountryChanged($event.target.value)"
+                    required>
+                <option *ngFor="#ct of cmsService.countries" [value]="ct.country">{{ct.country}}</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="city">City</label>
+            <select id="city"
+                    #city="ngForm"
+                    [(ngModel)]="contact.city"
+                    ngControl="city"
+                    required>
+                <option *ngFor="#aCity of cities" [value]="aCity">{{aCity}}</option>
+            </select>
+        </div>
+        <br/>
+        <button type="submit" class="btn btn-primary" [disabled]="!contactForm.form.valid">Submit</button>
+    </form>
+</div>
